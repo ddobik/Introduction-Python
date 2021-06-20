@@ -1,3 +1,3 @@
 from art import *
 
-tprint("Dmitry")
+tprint("Dmitry", font="*")
