@@ -1,12 +1,12 @@
 stars = []
 x = int(input('Enter number of stars: '))
-for i in range(x):
-    if i <= x:
-        i += 1
-        stars.append(i)
+for element in range(x):
+    if element <= x:
+        element += 1
+        stars.append(element)
 
-for i in range(x):
-    stars[i] = '*'
+for element in range(x):
+    stars[element] = '*'
 #print(*stars)
-for elem in stars:
-    print(elem, end='')
+for element in stars:
+    print(element, end='')
