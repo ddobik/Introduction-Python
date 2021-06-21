@@ -7,6 +7,6 @@ for element in range(x):
 
 for element in range(x):
     stars[element] = '*'
-#print(*stars)
+# print(*stars)
 for element in stars:
     print(element, end='')
