@@ -13,8 +13,8 @@ for item in a:
 print('Произведение введённых чисел:', p)
 print('Среднее арифметическое введённых чисел:', sum(a) / len(a))
 
-print('Наибольшее значение:', max([item for item in a]))
-print('Порядковый номер наибольшего значения:', a.index(max([item for item in a])) + 1)
+print('Наибольшее значение:', max(item for item in a))
+print('Порядковый номер наибольшего значения:', a.index(max(item for item in a)) + 1)
 
 b = 0
 с = 0
@@ -32,4 +32,4 @@ for item1 in s:
         print('Значение второго по величине элемента:', item1)
         break
 
-print('Количество элементов с наибольшим значением:', a.count(max([item for item in a])))
+print('Количество элементов с наибольшим значением:', a.count(max(item for item in a)))
