@@ -9,4 +9,4 @@ def is_prime(x):
         print('False')
 
 
-is_prime(87)
+#is_prime(87)
