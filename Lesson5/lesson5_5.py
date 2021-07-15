@@ -7,5 +7,5 @@ def square(x):
     print(k)
 
 
-a = int(input('Ввведите длину стороны квадрата:'))
+a = float(input('Ввведите длину стороны квадрата:'))
 square(a)
