@@ -9,5 +9,5 @@ def lis_dict(x):
     # print(dict(enumerate(x)))
 
 
-l = list(input(str('Ведите стороку:')))
-print(lis_dict(l))
+some_list = list(input(str('Ведите стороку:')))
+print(lis_dict(some_list))
